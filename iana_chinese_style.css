@@ -209,7 +209,9 @@ p { font-size: 18px; }
 }
 
 /* ===== APPROACH ===== */
-.approach { padding: 64px 4%; }
+.approach {
+  padding: 32px 4% 64px;
+}
 .approach .section-text {
   max-width: 760px;
   margin-bottom: 28px;
@@ -261,7 +263,10 @@ p { font-size: 18px; }
 }
 .gallery-grid { gap: 32px; margin-bottom: 28px; }
 .gallery-cards { margin-bottom: 32px; }
-.presentation-grid { margin-top: 32px; margin-bottom: 80px; }
+.presentation-grid {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
 .gallery-card,
 .presentation-card {
   padding: 28px;
@@ -307,8 +312,8 @@ p { font-size: 18px; }
 
 /* ===== PRICING / LEARNING PROCESS ===== */
 .pricing {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding: 0;
   background: transparent;
   border-radius: 0;
@@ -581,4 +586,59 @@ p { font-size: 18px; }
 
   .contact-actions { flex-direction: column; }
   .contact-btn { width: 100%; }
+}
+
+.testimonials {
+  padding: 20px 8% 64px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.testimonial-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #000;
+}
+
+.testimonial-text {
+  padding: 22px 24px 26px;
+}
+
+.testimonial-text h3 {
+  margin: 0 0 10px;
+}
+
+.testimonial-text p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 32px 20px 48px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
 }
