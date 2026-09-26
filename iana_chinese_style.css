@@ -208,7 +208,7 @@ p { font-size: 18px; }
   line-height: 1.5;
 }
 
-.about-credentials {
+.about-text .about-credentials {
   margin: 24px 0;
   color: var(--accent-dark);
   font-weight: 700;
