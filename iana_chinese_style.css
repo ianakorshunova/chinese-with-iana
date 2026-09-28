@@ -396,17 +396,20 @@ p { font-size: 18px; }
 }
 .price-card p { margin: 0; line-height: 1.55; text-align: center; }
 .price-intro { margin-bottom: 0; line-height: 1.5; }
-.price-features { margin-top: 36px; margin-bottom: 36px; }
+.price-features {
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
 .features-title { margin: 0 0 14px; font-weight: 600; }
 .price-card ul {
   display: inline-block;
-  margin: 12px auto 28px;
+  margin: 12px auto 8px;
   padding-left: 22px;
   text-align: left;
 }
 .price-features li { margin-bottom: 8px; line-height: 1.5; }
 .price-bonus {
-  margin: 0 auto 36px;
+  margin: 32px auto 36px;
   padding: 18px 22px;
   background-color: var(--surface);
   border-radius: 20px;
@@ -415,7 +418,6 @@ p { font-size: 18px; }
   line-height: 1.5;
   text-align: center;
 }
-.price-bonus p { margin: 0; line-height: 1.5; }
 .bonus-preview {
   display: inline-block;
   margin: 0 auto;
@@ -452,6 +454,30 @@ p { font-size: 18px; }
 }
 .price-link:hover { transform: translateY(-1px); }
 
+.time-block {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.time-block h3 {
+  margin: 0 0 12px;
+  color: var(--accent-dark);
+  font-size: 22px;
+}
+
+.time-main {
+  margin: 0 0 8px;
+  color: var(--accent-dark);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.time-note {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.75;
+}
 /* ===== CONTACT ===== */
 .contact {
   max-width: 700px;
