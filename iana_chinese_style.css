@@ -697,3 +697,20 @@ p { font-size: 18px; }
     grid-template-columns: 1fr;
   }
 }
+
+.availability-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 12px;
+}
+
+.availability-note,
+.lesson-rule {
+  margin: 0;
+}
+
+.lesson-rule {
+  font-weight: 600;
+  line-height: 1.5;
+}
